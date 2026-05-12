@@ -69,6 +69,7 @@ fun ScreenPost(navController: NavHostController, servicio: PostApiService, id: I
             .padding(8.dp)
             .fillMaxSize()
     ) {
+
         if (post != null){
             OutlinedTextField(
                 value = post!!.id.toString(),
